@@ -1,7 +1,6 @@
 from pyrogram.types import Message
 from pyrogram import Client, filters
 
-from env import DATABASE_URL
 
 
 if DATABASE_URL != ''
