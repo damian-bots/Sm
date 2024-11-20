@@ -4,9 +4,7 @@ from pyrogram import Client, filters
 from env import DATABASE_URL
 
 
-if DATABASE_URL != '':
-    from StringSessionBot.database import SESSION
-    from StringSessionBot.database.users_sql import Users, num_users
+if DATABASE_URL != ''
 
 
 @Client.on_message(~filters.service, group=1)
