@@ -2,10 +2,6 @@ from pyrogram.types import Message
 from pyrogram import Client, filters
 
 
-
-if DATABASE_URL != ''
-
-
 @Client.on_message(~filters.service, group=1)
 async def users_sql(_, msg: Message):
     if DATABASE_URL == '':
